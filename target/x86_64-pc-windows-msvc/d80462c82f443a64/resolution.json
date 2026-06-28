@@ -1,0 +1,15 @@
+{
+  "runtime": {
+    "capabilities": [],
+    "dlopen_libs": [],
+    "library_dirs": [
+      "D:\\cbuild\\registry\\data\\xpkgs\\xim-x-llvm\\20.1.7\\lib"
+    ]
+  },
+  "toolchain": {
+    "abi": "glibc",
+    "spec": "clang 20.1.7 (x86_64-pc-windows-msvc)",
+    "stdlib": "msvc-stl",
+    "triple": "x86_64-pc-windows-msvc"
+  }
+}

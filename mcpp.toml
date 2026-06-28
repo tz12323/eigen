@@ -1,0 +1,20 @@
+[workspace]
+members = ["blas"]
+[package]
+name = "eigen"
+version = "5.0.0"
+
+[targets.eigen]
+kind = "lib"
+
+[targets.eigen_blas]
+kind = "lib"
+required_features = ["blas"]
+cxxflags = ["-DEIGEN_USE_BLAS"]
+
+[build]
+opt = 3
+include_dirs = ["."]
+
+[dependencies.eigen_blas]
+blas = { path = "./blas" }

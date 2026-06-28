@@ -1,0 +1,9 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "obj\\double.o"
+    }
+  ],
+  "version": 1
+}
