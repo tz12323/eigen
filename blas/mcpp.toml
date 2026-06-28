@@ -5,7 +5,7 @@ version = "5.0.0"
 [targets.blas]
 kind = "lib"
 [build]
-include_dirs = ["*", "!testing/"]
+include_dirs = ["*"]
 sources = [
     "single.cpp",
     "double.cpp",
