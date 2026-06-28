@@ -1,9 +1,0 @@
-{
-  "revision": 0,
-  "rules": [
-    {
-      "primary-output": "obj\\xerbla.o"
-    }
-  ],
-  "version": 1
-}
