@@ -34,4 +34,4 @@ sources = [
 ]
 [features]
 default = []
-blas = { defines = ["EIGEN_USE_BLAS"] }
+blas = []
